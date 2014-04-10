@@ -10,3 +10,5 @@ script_to_create_files_by_day.sh will help you to create files needed to calcula
 script_to_total_size.sh will calculate the size per keyspace per day considering the whole cluster
 
 script_to_total_all.sh will calculate the size considering all the keyspaces for each day to the range of the days specified in the days and month files
+
+run script_to_seperate_data_per_keyspace.sh last after running all the scripts to put the data in one csv file for convenience
